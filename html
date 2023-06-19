@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Website</title>
+  <style>
+    .block {
+      margin-bottom: 20px;
+    }
+    .field {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="block">
+    <h2>Event Announcement</h2>
+    <p>Date: September 15, 2023</p>
+    <p>Time: 10:00 AM - 2:00 PM</p>
+  </div>
+
+  <div class="block">
+    <h2>Event Program</h2>
+    <p>10:00 AM - Welcome and Introduction</p>
+    <p>11:00 AM - Keynote Speech</p>
+    <p>12:00 PM - Panel Discussion</p>
+    <p>1:00 PM - Networking Session</p>
+  </div>
+
+  <div class="block">
+    <h2>Registration</h2>
+    <form>
+      <div class="field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="field">
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" rows="4"></textarea>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="gdpr" name="gdpr" required>
+        <label for="gdpr">I agree to the GDPR terms and conditions.</label>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <div class="block">
+    <h2>Logos</h2>
+    <img src="logo1.png" alt="Logo 1" width="100">
+    <img src="logo2.png" alt="Logo 2" width="100">
+  </div>
+
+  <div class="block">
+    <h2>Pictures</h2>
+    <img src="picture1.jpg" alt="Picture 1" width="300">
+    <img src="picture2.jpg" alt="Picture 2" width="300">
+  </div>
+
+  <div class="block">
+    <h2>Microsoft Teams Link</h2>
+    <p>After completing the registration, you will receive an email with the Microsoft Teams link for the event.</p>
+  </div>
+</body>
+</html>
